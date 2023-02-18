@@ -1,5 +1,4 @@
 # Advanced-topics-in-quantum-information
 
-Course Notes
+These notes are organized according to class notes. 
 
-Homework
