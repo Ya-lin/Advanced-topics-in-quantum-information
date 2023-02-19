@@ -51,6 +51,49 @@
     <text|and> \|1\<rangle\>\<langle\>1\|=<around*|[|<tabular*|<tformat|<table|<row|<cell|0>|<cell|0>>|<row|<cell|0>|<cell|1>>>>>|]>
   </equation*>
 
+  The state of a quantum state is described by ket
+  <math|\|\<psi\>\<rangle\>\<Rightarrow\>>All kets are elements of abstract
+  vector space <math|<with|font|cal|H>>, called Hilbert space,
+
+  Properties
+
+  <\enumerate>
+    <item>If <math|\|\<psi\>\<rangle\>> and <math|\|\<phi\>\<rangle\>> are in
+    <math|<with|font|cal|H>> then \Psuperposition\Q
+    <math|a\|\<psi\>\<rangle\>+b\|\<phi\>\<rangle\>\<in\><with|font|cal|H>>.
+
+    <item>Inner product <math|\<langle\>\<phi\>\|\<psi\>\<rangle\>>
+  </enumerate>
+
+  For a real physical system, <math|\<langle\>\<phi\>\|\<phi\>\<rangle\>=1>;
+  if two vectors are orthogonal then <math|\<langle\>\<phi\>\|\<psi\>\<rangle\>=0>.
+
+  Example
+
+  <\eqnarray*>
+    <tformat|<table|<row|<cell|\<langle\>0\|0\<rangle\>>|<cell|=>|<cell|\<langle\>1\|1\<rangle\>>>|<row|<cell|>|<cell|=>|<cell|1>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|\<langle\>0\|1\<rangle\>>|<cell|=>|<cell|\<langle\>1\|0\<rangle\>>>|<row|<cell|>|<cell|=>|<cell|0>>|<row|<cell|>|<cell|>|<cell|>>|<row|<cell|\<langle\>\<psi\>\|\<psi\>\<rangle\>>|<cell|=>|<cell|<around*|[|<tabular*|<tformat|<table|<row|<cell|\<alpha\><rsup|\<ast\>>>|<cell|\<beta\><rsup|\<ast\>>>>>>>|]><around*|[|<tabular*|<tformat|<table|<row|<cell|\<alpha\>>>|<row|<cell|\<beta\>>>>>>|]>>>|<row|<cell|>|<cell|=>|<cell|\<alpha\>\<alpha\><rsup|\<ast\>>+\<beta\>\<beta\><rsup|\<ast\>>>>|<row|<cell|>|<cell|=>|<cell|1>>>>
+  </eqnarray*>
+
+  <math|\|0\<rangle\>> and <math|\|1\<rangle\>> form an orthogonal basis set.
+
+  Bloch sphere
+
+  Relation to measurements
+
+  Results of a \<#2018\>basic\<#2019\> measurement is associated with a basic
+  vector. For a qubit, possible outcomes are
+  <math|\|0\<rangle\>,\|1\<rangle\>>, which are called post measurement qubit
+  state. Let <math|\|\<psi\>\<rangle\>=\<alpha\>\|0\<rangle\>+\<beta\>\|1\<rangle\>>
+  denote the qubit before measurement.\ 
+
+  The probability to get result <math|0> is
+  <math|Prob<around*|(|0|)>=<around*|\||\<langle\>0\|\<psi\>\<rangle\>|\|><rsup|2>=<around*|\||\<alpha\>|\|><rsup|2>>.
+
+  The probability to get result <math|1> is
+  <math|Prob<around*|(|1|)>=<around*|\||\<langle\>1\|\<psi\>\<rangle\>|\|>=<around*|\||\<beta\>|\|><rsup|2>>.
+
+  \;
+
   \;
 </body>
 
@@ -62,7 +105,7 @@
 
 <\references>
   <\collection>
-    <associate|auto-1|<tuple|1|1|..\\..\\..\\..\\AppData\\Roaming\\TeXmacs\\texts\\scratch\\no_name_1.tm>>
+    <associate|auto-1|<tuple|1|1>>
   </collection>
 </references>
 
